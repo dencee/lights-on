@@ -1,5 +1,5 @@
-const NUM_ROWS = 3;
-const NUM_COLS = 3;
+const NUM_ROWS = 5;
+const NUM_COLS = 5;
 const LIGHTS_OFF_COLOR = 'gray';
 const LIGHTS_ON_COLOR = 'orange';
 const grid = []
