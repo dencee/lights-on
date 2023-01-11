@@ -1,5 +1,5 @@
-const NUM_ROWS = 5;
-const NUM_COLS = 5;
+const NUM_ROWS = 3;
+const NUM_COLS = 3;
 const LIGHTS_OFF_COLOR = 'gray';
 const LIGHTS_ON_COLOR = 'orange';
 const grid = []
@@ -99,9 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
     for (let i = 0; i < lightElements.length; i++) {
         lightElements[i].addEventListener('click', toggleLights);
     }
-});
 
-document.addEventListener('DOMContentLoaded', () => {
     const button = document.querySelector('button');
     button.addEventListener('click', randomizeLights);
 });
